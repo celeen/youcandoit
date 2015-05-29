@@ -1,15 +1,15 @@
 # coding: utf-8
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'gosleap/version'
+require 'youcandoit/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "gosleap"
-  spec.version       = Gosleap::VERSION
-  spec.authors       = ["Kori Roys"]
-  spec.email         = ["kori@koriroys.com"]
-  spec.summary       = %q{Makes a gosling jump across your screen.}
-  spec.description   = %q{Makes a gosling jump across your screen.}
+  spec.name          = "youcandoit"
+  spec.version       = Youcandoit::VERSION
+  spec.authors       = ["Celeen Rusk"]
+  spec.email         = ["celeenrusk@gmail.com"]
+  spec.summary       = %q{motivational screen animation}
+  spec.description   = %q{motivational screen animation}
   spec.homepage      = ""
   spec.license       = "MIT"
 
