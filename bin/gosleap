@@ -1,7 +1,0 @@
-#!/usr/bin/env ruby
-
-gosling_image = "#{__dir__}/gosling.png"
-sparkle_image = "#{__dir__}/heygurl.png"
-imageleap = "#{__dir__}/imageleap"
-
-system("#{imageleap} -i #{gosling_image} -p #{sparkle_image}")

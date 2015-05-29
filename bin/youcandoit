@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+main_image = "#{__dir__}/thumbsup.png"
+sparkle_image = "#{__dir__}/sparkle.png"
+imageleap = "#{__dir__}/imageleap"
+puts sparkle_image
+system("#{imageleap} -i #{main_image} -p #{sparkle_image}")
+
