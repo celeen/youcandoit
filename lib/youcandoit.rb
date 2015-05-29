@@ -1,5 +1,5 @@
-require "gosleap/version"
+require "youcandoit/version"
 
-module Gosleap
+module Youcandoit
   # Your code goes here...
 end
